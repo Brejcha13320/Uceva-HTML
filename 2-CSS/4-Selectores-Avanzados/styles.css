@@ -1,0 +1,15 @@
+div p {
+  color: blue; /* descendiente */
+}
+
+div > p {
+  font-weight: bold; /* hijo directo */
+}
+
+div + p {
+  color: red; /* hermano adyacente */
+}
+
+div ~ p {
+  text-decoration: underline; /* hermano general */
+}
